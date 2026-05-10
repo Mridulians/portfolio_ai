@@ -1,6 +1,13 @@
 import { ContactForm } from "./ContactForm";
 
 export const Contact = () => {
+    
+   const socials = [
+    { name: "GitHub", href: "https://github.com/Mridulians" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/in/mridulgupta21/" },
+    { name: "Instagram", href: "https://www.instagram.com/emptiholic21/" },
+  ];
+
   return (
     <section id="contact" className="relative py-32">
       <div className="container">
@@ -28,13 +35,14 @@ export const Contact = () => {
             <ContactForm />
 
             <div className="mt-12 flex items-center justify-center gap-6 text-sm text-muted-foreground">
-              {["GitHub", "LinkedIn", "Twitter"].map((s) => (
+              {socials.map((s) => (
                 <a
-                  key={s}
-                  href="#"
+                  key={s.name}
+                  href={s.href}
+                  target="_blank"
                   className="relative hover:text-primary transition-colors after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:h-px after:bg-primary after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform"
                 >
-                  {s}
+                  {s.name}
                 </a>
               ))}
             </div>

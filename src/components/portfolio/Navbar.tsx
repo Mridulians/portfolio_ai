@@ -53,9 +53,9 @@ export const Navbar = () => {
           <a href="#hero" className="flex items-center gap-2 group">
             <span className="relative grid place-items-center w-8 h-8 rounded-lg bg-primary/10 border border-primary/30">
               <span className="absolute inset-0 rounded-lg bg-primary/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity" />
-              <span className="font-display font-bold text-primary text-sm relative">D</span>
+              <span className="font-display font-bold text-primary text-sm relative">M</span>
             </span>
-            <span className="font-display font-semibold tracking-tight">dev<span className="text-primary">.</span></span>
+            <span className="font-display font-semibold tracking-tight">Mridul</span>
           </a>
 
           <ul className="hidden md:flex items-center gap-1">

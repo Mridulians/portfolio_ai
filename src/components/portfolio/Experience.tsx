@@ -1,45 +1,90 @@
 import { useEffect, useRef, useState } from "react";
 import { SectionHeader } from "./SectionHeader";
 
+// const experience = [
+//   {
+//     period: "2024 — Present",
+//     role: "Freelance Software Developer",
+//     company: "Independent",
+//     summary:
+//       "Partnering with founders and agencies to ship Shopify stores, custom MERN apps, and internal tools. Owning projects end-to-end: discovery, architecture, build, and handover.",
+//     highlights: [
+//       "Built a real-time bulk price updater for a Shopify jewellery store — 10k+ SKUs, ~15h/week saved",
+//       "Shipped a MERN analytics dashboard cutting reporting time by 60%",
+//       "Led headless WordPress + React rebuilds with sub-second TTFB",
+//     ],
+//     stack: ["React", "TypeScript", "Node.js", "Shopify", "MongoDB"],
+//   },
+//   {
+//     period: "2022 — 2024",
+//     role: "Full-Stack Web Developer",
+//     company: "Web Agency",
+//     summary:
+//       "Delivered 25+ client projects across e-commerce, marketing sites, and custom dashboards. Owned frontend architecture and backend integrations on most builds.",
+//     highlights: [
+//       "Built reusable theme & component systems used across the agency's stack",
+//       "Integrated Stripe, Klaviyo, and 3rd-party APIs into production stores",
+//       "Mentored two junior developers on React patterns and clean Git workflow",
+//     ],
+//     stack: ["React", "Next.js", "WordPress", "Express", "Tailwind"],
+//   },
+//   {
+//     period: "2021 — 2022",
+//     role: "Junior Web Developer",
+//     company: "Studio / Early career",
+//     summary:
+//       "Started in the trenches: WordPress themes, landing pages, and the first React apps. Built the foundations of a problem-solving mindset that still drives my work today.",
+//     highlights: [
+//       "Shipped 15+ responsive marketing sites with Lighthouse scores 90+",
+//       "Migrated legacy jQuery codebases to modern React components",
+//       "Built first internal tooling that automated repetitive client work",
+//     ],
+//     stack: ["JavaScript", "React", "WordPress", "PHP", "CSS"],
+//   },
+// ];
+
+
 const experience = [
   {
-    period: "2024 — Present",
-    role: "Freelance Software Developer",
-    company: "Independent",
+    period: "July 2025 — Present",
+    role: "Software Developer",
+    company: "Top MNC",
     summary:
-      "Partnering with founders and agencies to ship Shopify stores, custom MERN apps, and internal tools. Owning projects end-to-end: discovery, architecture, build, and handover.",
+      "Working as a React developer on a GIS-based enterprise application. Focused on building scalable frontend systems, handling complex data visualizations, and integrating APIs in a production-grade environment.",
     highlights: [
-      "Built a real-time bulk price updater for a Shopify jewellery store — 10k+ SKUs, ~15h/week saved",
-      "Shipped a MERN analytics dashboard cutting reporting time by 60%",
-      "Led headless WordPress + React rebuilds with sub-second TTFB",
+      "Developing and optimizing React-based interfaces for GIS workflows",
+      "Handling large datasets and improving rendering performance",
+      "Collaborating with cross-functional teams in an enterprise setup",
     ],
-    stack: ["React", "TypeScript", "Node.js", "Shopify", "MongoDB"],
+    stack: ["React", "Node.js", "MERN", "Python"],
   },
   {
-    period: "2022 — 2024",
-    role: "Full-Stack Web Developer",
-    company: "Web Agency",
+    period: "June 2024 — July 2025",
+    role: "Website Developer (Team Lead)",
+    company: "DigiPerform",
     summary:
-      "Delivered 25+ client projects across e-commerce, marketing sites, and custom dashboards. Owned frontend architecture and backend integrations on most builds.",
+      "Led a team of 4 developers to deliver client-focused web solutions across Shopify, WordPress, and custom MERN applications. Acted as the primary bridge between clients and the development team.",
     highlights: [
-      "Built reusable theme & component systems used across the agency's stack",
-      "Integrated Stripe, Klaviyo, and 3rd-party APIs into production stores",
-      "Mentored two junior developers on React patterns and clean Git workflow",
+      "Managed end-to-end project delivery from requirement gathering to deployment",
+      "Led a team of 4 developers, ensuring code quality and timely delivery",
+      "Built and deployed multiple Shopify and WordPress solutions for clients",
+      "Designed custom MERN-based solutions tailored to business needs",
     ],
-    stack: ["React", "Next.js", "WordPress", "Express", "Tailwind"],
+    stack: ["React", "Node.js", "MERN", "WordPress", "Shopify"],
   },
   {
-    period: "2021 — 2022",
-    role: "Junior Web Developer",
-    company: "Studio / Early career",
+    period: "June 2023 — March 2024",
+    role: "Software Developer",
+    company: "Crypto Venture",
     summary:
-      "Started in the trenches: WordPress themes, landing pages, and the first React apps. Built the foundations of a problem-solving mindset that still drives my work today.",
+      "Built a crypto-focused web platform from scratch and scaled it with a team of 10 interns. Took ownership of architecture, development, and team coordination.",
     highlights: [
-      "Shipped 15+ responsive marketing sites with Lighthouse scores 90+",
-      "Migrated legacy jQuery codebases to modern React components",
-      "Built first internal tooling that automated repetitive client work",
+      "Led a team of 10 interns and managed task distribution",
+      "Developed the application from scratch using MERN stack",
+      "Designed backend architecture and database schema",
+      "Scaled the platform to handle growing user interactions",
     ],
-    stack: ["JavaScript", "React", "WordPress", "PHP", "CSS"],
+    stack: ["React", "Node.js", "Express", "MongoDB", "AWS"],
   },
 ];
 

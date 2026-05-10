@@ -7,10 +7,10 @@ import booking from "@/assets/project-booking.jpg";
 
 const glimpses = [
   {
-    title: "Aurum — Jewellery Commerce",
+    title: "Hotilal Jewellers — Jewellery Commerce",
     tag: "Shopify",
     image: jewellery,
-    href: "https://example.com/aurum",
+    href: "https://hotilaljewellers.com/",
   },
   {
     title: "Pulse Analytics Dashboard",

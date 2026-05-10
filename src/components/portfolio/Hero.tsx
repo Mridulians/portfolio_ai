@@ -78,7 +78,7 @@ export const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-muted-foreground text-xs font-mono animate-fade-in-slow">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-muted-foreground text-xs font-mono animate-fade-in-slow">
         <span>SCROLL</span>
         <div className="w-px h-12 bg-gradient-to-b from-primary to-transparent" />
       </div>

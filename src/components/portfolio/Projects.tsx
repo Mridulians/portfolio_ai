@@ -2,8 +2,8 @@ import { SectionHeader } from "./SectionHeader";
 
 const projects = [
   {
-    title: "Aurum — Jewellery Commerce",
-    desc: "Custom Shopify theme with a real-time bulk price updater pegged to live gold rates. Powers thousands of SKUs daily.",
+    title: "Hotilal Jewellers — Jewellery Commerce",
+    desc: "Custom Shopify theme with a real-time bulk price updater pegged to live gold, silver and diamond rates. Powers thousands of SKUs daily.",
     stack: ["Shopify", "Liquid", "Node.js", "API"],
     impact: "10k+ products auto-synced",
   },

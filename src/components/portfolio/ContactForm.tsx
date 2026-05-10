@@ -213,7 +213,7 @@ export const ContactForm = () => {
         <button
           type="submit"
           disabled={submitting}
-          className="group relative inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary text-primary-foreground font-medium overflow-hidden transition-all duration-300 hover:shadow-[0_0_40px_hsl(var(--primary)/0.6)] disabled:opacity-60 disabled:cursor-not-allowed w-full sm:w-auto"
+          className="group relative inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-primary text-primary-foreground font-medium overflow-hidden transition-all duration-300 hover:shadow-[0_0_40px_hsl(var(--primary)/0.6)] disabled:opacity-60 disabled:cursor-not-allowed w-full sm:w-[40%]"
         >
           <span className="absolute inset-0 bg-gradient-to-r from-primary to-primary-glow opacity-0 group-hover:opacity-100 transition-opacity" />
           <span className="relative">

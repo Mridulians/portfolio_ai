@@ -61,7 +61,7 @@ export const ValueProp = () => {
               </h3>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 Built a custom system that updates thousands of product prices
-                instantly based on live gold rates — replacing days of manual
+                instantly based on live gold, silver and diamond rates — replacing days of manual
                 spreadsheet work with a one-click operation. Saved the team
                 ~15 hours per week and eliminated pricing errors entirely.
               </p>
